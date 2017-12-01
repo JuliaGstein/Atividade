@@ -1,19 +1,9 @@
-<body>
-<div class="container">
-<div class="row">
-   <li class="nav-item">
- 
-    <li><%= link_to 'Aluno', alunos_path %></li>
-     <br>
-        <li><%= link_to 'Aeronave', aeronaves_path %></li>
-    
-     <br>
-      <li> <%= link_to('Sair', destroy_user_session_path, method: :delete) %></li>        
-        
-       
-      </li>
-     
-</div>
+<div class="jumbotron">
+    <h1>Aero clube</h1>
+	
+ 	  <%= link_to 'aluno', alunos_path %> 
+ 	  <br>
+ 	  <br>
+ 	  <%= link_to 'aeronave', aeronaves_path %>
 </div>
 
-</body>
